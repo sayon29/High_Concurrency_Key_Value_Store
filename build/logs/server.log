@@ -1,0 +1,11 @@
+[INFO ] Server started on port 8080
+[INFO ] Client connected from 127.0.0.1
+[ERROR] Invalid command from [127.0.0.1]: }
+[INFO ] Server started on port 8080
+[INFO ] Client connected from 127.0.0.1
+[DEBUG] [127.0.0.1] Request: GET x
+[DEBUG] [127.0.0.1] Request: SET x 10
+[DEBUG] [127.0.0.1] Request: GET x
+[DEBUG] [127.0.0.1] Request: DEL x
+[DEBUG] [127.0.0.1] Request: }
+[ERROR] Invalid command from [127.0.0.1]: }

@@ -31,3 +31,6 @@ endif()
 
 find_package(Threads REQUIRED)
 target_link_libraries(server PRIVATE Threads::Threads)
+
+add_executable(benchmark tests/benchmark.cpp)
+target_link_libraries(benchmark PRIVATE Threads::Threads)

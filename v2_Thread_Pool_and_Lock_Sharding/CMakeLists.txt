@@ -24,9 +24,12 @@ target_include_directories(server PRIVATE include)
 target_link_libraries(server PRIVATE Threads::Threads)
 
 add_executable(benchmark tests/benchmark.cpp)
-
 target_include_directories(benchmark PRIVATE include)
 target_link_libraries(benchmark PRIVATE Threads::Threads)
+
+add_executable(shard_benchmark tests/shard_benchmark.cpp)
+target_include_directories(shard_benchmark PRIVATE include)
+target_link_libraries(shard_benchmark PRIVATE Threads::Threads)
 
 if(USE_LOGGING)
     target_compile_definitions(server PRIVATE ENABLE_LOGGING)

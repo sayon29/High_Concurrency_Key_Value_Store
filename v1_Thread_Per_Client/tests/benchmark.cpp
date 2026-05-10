@@ -145,7 +145,7 @@ public:
         std::cout << "\n" << report.str();
 
         // Write to file
-        save_to_file("results/result.txt", report.str());
+        save_to_file("../results/result.txt", report.str());
     }
 
 private:

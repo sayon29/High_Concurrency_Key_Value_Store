@@ -1,0 +1,143 @@
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 10
+Total Successful : 99990 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 0.74 seconds
+Throughput       : 134672.62 req/sec
+--------------------------------------
+Avg Latency      : 0.045 ms
+p50 Latency      : 0.037 ms
+p95 Latency      : 0.086 ms
+p99 Latency      : 0.133 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 50
+Total Successful : 249950 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 0.73 seconds
+Throughput       : 341356.02 req/sec
+--------------------------------------
+Avg Latency      : 0.092 ms
+p50 Latency      : 0.055 ms
+p95 Latency      : 0.136 ms
+p99 Latency      : 1.491 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 100
+Total Successful : 99900 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 0.29 seconds
+Throughput       : 340844.11 req/sec
+--------------------------------------
+Avg Latency      : 0.182 ms
+p50 Latency      : 0.115 ms
+p95 Latency      : 0.543 ms
+p99 Latency      : 1.113 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 1000
+Total Successful : 99000 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 0.29 seconds
+Throughput       : 336891.52 req/sec
+--------------------------------------
+Avg Latency      : 1.234 ms
+p50 Latency      : 0.158 ms
+p95 Latency      : 0.748 ms
+p99 Latency      : 4.316 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 10000
+Total Successful : 90000 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 0.37 seconds
+Throughput       : 243615.75 req/sec
+--------------------------------------
+Avg Latency      : 14.303 ms
+p50 Latency      : 0.132 ms
+p95 Latency      : 124.063 ms
+p99 Latency      : 195.247 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 20000
+Total Successful : 180000 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 1.47 seconds
+Throughput       : 122260.79 req/sec
+--------------------------------------
+Avg Latency      : 29.092 ms
+p50 Latency      : 0.151 ms
+p95 Latency      : 258.832 ms
+p99 Latency      : 510.431 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 30000
+Total Successful : 270000 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 2.76 seconds
+Throughput       : 97791.47 req/sec
+--------------------------------------
+Avg Latency      : 112.395 ms
+p50 Latency      : 0.153 ms
+p95 Latency      : 1115.747 ms
+p99 Latency      : 1657.849 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 40000
+Total Successful : 282843 requests
+Connection Fails : 8573
+Timed Out        : 0
+Time taken       : 4.80 seconds
+Throughput       : 58928.31 req/sec
+--------------------------------------
+Avg Latency      : 208.586 ms
+p50 Latency      : 0.152 ms
+p95 Latency      : 1888.120 ms
+p99 Latency      : 3319.508 ms
+======================================
+
+======================================
+         BENCHMARK RESULTS            
+======================================
+Total Connections: 50000
+Total Successful : 282456 requests
+Connection Fails : 18616
+Timed Out        : 0
+Time taken       : 7.25 seconds
+Throughput       : 38950.58 req/sec
+--------------------------------------
+Avg Latency      : 285.997 ms
+p50 Latency      : 0.160 ms
+p95 Latency      : 2242.058 ms
+p99 Latency      : 5843.662 ms
+======================================

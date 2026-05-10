@@ -285,7 +285,7 @@ public:
         report << "======================================\n";
 
         std::cout << "\n" << report.str();
-        save_to_file("results/benchmark_report.txt", report.str());
+        save_to_file("../results/benchmark_report.txt", report.str());
     }
 
     void save_to_file(const std::string& filepath, const std::string& content) {

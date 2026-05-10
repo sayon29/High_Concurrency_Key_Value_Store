@@ -1,0 +1,83 @@
+======================================
+          BENCHMARK RESULTS           
+======================================
+Concurrency      : 10 threads
+Total Attempted  : 100000 requests
+Total Successful : 100000 requests
+Time taken       : 0.23 seconds
+Throughput       : 429990.10 req/sec
+--------------------------------------
+Avg Latency      : 0.022 ms
+p50 Latency      : 0.021 ms
+p99 Latency      : 0.051 ms
+======================================
+
+======================================
+          BENCHMARK RESULTS           
+======================================
+Concurrency      : 50 threads
+Total Attempted  : 100000 requests
+Total Successful : 100000 requests
+Time taken       : 0.20 seconds
+Throughput       : 498147.92 req/sec
+--------------------------------------
+Avg Latency      : 0.076 ms
+p50 Latency      : 0.057 ms
+p99 Latency      : 0.271 ms
+======================================
+
+======================================
+          BENCHMARK RESULTS           
+======================================
+Concurrency      : 100 threads
+Total Attempted  : 100000 requests
+Total Successful : 100000 requests
+Time taken       : 1.08 seconds
+Throughput       : 92923.51 req/sec
+--------------------------------------
+Avg Latency      : 0.126 ms
+p50 Latency      : 0.081 ms
+p99 Latency      : 0.536 ms
+======================================
+
+======================================
+          BENCHMARK RESULTS           
+======================================
+Concurrency      : 1000 threads
+Total Attempted  : 100000 requests
+Total Successful : 100000 requests
+Time taken       : 1.34 seconds
+Throughput       : 74820.91 req/sec
+--------------------------------------
+Avg Latency      : 0.225 ms
+p50 Latency      : 0.179 ms
+p99 Latency      : 0.885 ms
+======================================
+
+======================================
+          BENCHMARK RESULTS           
+======================================
+Concurrency      : 10000 threads
+Total Attempted  : 100000 requests
+Total Successful : 100000 requests
+Time taken       : 1.71 seconds
+Throughput       : 58599.93 req/sec
+--------------------------------------
+Avg Latency      : 0.080 ms
+p50 Latency      : 0.051 ms
+p99 Latency      : 0.383 ms
+======================================
+
+======================================
+          BENCHMARK RESULTS           
+======================================
+Concurrency      : 20000 threads
+Total Attempted  : 200000 requests
+Total Successful : 200000 requests
+Time taken       : 12.75 seconds
+Throughput       : 15692.38 req/sec
+--------------------------------------
+Avg Latency      : 3.185 ms
+p50 Latency      : 0.053 ms
+p99 Latency      : 5.345 ms
+======================================

@@ -28,7 +28,7 @@ Server::Server(int port, size_t num_threads)
 }
 
 void Server::start(std::atomic<bool>& keep_running) {
-    if(listen(server_fd, 5) == -1) throw std::runtime_error("Failed to listen");
+    if(listen(server_fd, SOMAXCONN) == -1) throw std::runtime_error("Failed to listen");
 
     struct timeval timeout;
     timeout.tv_sec = 1; 
@@ -48,7 +48,6 @@ void Server::start(std::atomic<bool>& keep_running) {
         std::string client_ip = inet_ntoa(client_addr.sin_addr);
         Logger::log(LogLevel::INFO, "Client connected from " + client_ip);
 
-        // Simple and clean. No lambdas.
         pool.enqueue(client_fd, client_ip);
     }
 

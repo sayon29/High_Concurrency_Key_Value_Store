@@ -140,4 +140,19 @@ Avg Latency      : 285.997 ms
 p50 Latency      : 0.160 ms
 p95 Latency      : 2242.058 ms
 p99 Latency      : 5843.662 ms
+============================================================================
+         BENCHMARK RESULTS            
 ======================================
+Total Connections: 1000
+Total Successful : 99000 requests
+Connection Fails : 0
+Timed Out        : 0
+Time taken       : 0.30 seconds
+Throughput       : 333405.20 req/sec
+--------------------------------------
+Avg Latency      : 1.336 ms
+p50 Latency      : 0.087 ms
+p95 Latency      : 0.386 ms
+p99 Latency      : 3.558 ms
+======================================
+

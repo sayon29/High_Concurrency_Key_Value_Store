@@ -30,7 +30,6 @@ void ThreadPool::worker_loop() {
             tasks.pop();
         }
 
-        // We are outside the lock now. Call the handler directly!
         ClientHandler::handle(conn.fd, store_ref, conn.ip);
     }
 }
